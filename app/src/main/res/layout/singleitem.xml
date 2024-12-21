@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/singleitem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardBackgroundColor="@color/white"
+    android:paddingTop="40dp"
+    app:cardCornerRadius="30dp"
+    >
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical"
+       >
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="150dp"
+           android:src="@drawable/"
+           android:id="@+id/item_image"
+           />
+
+       <TextView
+           android:id="@+id/item_title"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="CheeseBurger"
+           android:textColor="@color/dark_turquoise"
+           android:textSize="30dp"
+           />
+
+       <TextView
+           android:id="@+id/item_detail"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Item Description"
+           android:textColor="@color/gray"
+           />
+
+       <TextView
+           android:id="@+id/item_cost"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="2000/KES"
+
+
+           />
+
+   </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
+
+

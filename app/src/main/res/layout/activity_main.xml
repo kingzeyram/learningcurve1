@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity"
+        >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Food Store"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recyclerview"
+        tools:listitem="@layout/singleitem"
+        />
+    </LinearLayout>
+<!--    Bottom sheet starts here-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:alpha="0.9"
+        android:background="@color/bisque"
+        android:id="@+id/bottom_sheet_container"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+<!--        Bottom sheet content-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp"
+
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Welcome!"
+                android:textSize="40dp"
+                android:textColor="@color/dark_turquoise"
+                android:fontFamily="serif"
+                android:id="@+id/welcome"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:text="Get started with your account"
+                android:textSize="15dp"
+                android:textColor="@color/dark_turquoise"
+                android:fontFamily="serif"
+                android:paddingBottom="25dp"
+                />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:text="Order Now!"
+                android:id="@+id/order_btn"
+
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:text="More!"
+                android:id="@+id/more_btn"/>
+
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+
+<!--coordinatorlayout is used while pitting the bottom sheet to use-->
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
