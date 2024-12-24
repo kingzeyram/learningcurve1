@@ -1,0 +1,42 @@
+h1{
+    text-align:center;
+  }
+.marker{
+    height:25px;
+    width:200px;
+    margin:10px auto;
+}
+.red{
+    /* without colour stops the transitions by default are 0%,50%,100% */
+    /* gradient direction by default is 180deg */
+    background: linear-gradient(rgb(122,74,14),rgb(245,62,113),rgb(162, 27, 27));
+    box-shadow: 0 0 20px 0 rgba(83,14,14,0.8);
+}
+.green{
+    /* without colour stops the transitions by default are 0%,50%,100% */
+    /* gradient direction by default is 180deg */
+    background: linear-gradient( #55680D,#71F53E,#116C31);
+    box-shadow:0 0 20px 0 #3B7E20CC
+}
+.blue{
+    background: linear-gradient( hsl(186, 76%, 16%),hsl(223, 90%, 60%),hsl(240,56%,42%));
+    box-shadow:0 0 20px 0 hsla(223,59%,31%,0.8)
+}
+.container{
+    padding:10px 0;
+    background-color: rgb(255, 255, 255);
+}
+.sleeve{
+    width:110px;
+    height:25px;
+    background-color: rgba(255, 255, 255, 50%);
+    border-left:10px  double  rgba(0, 0, 0, 0.75);
+    
+}
+.cap{
+    width:60px;
+    height:25px;
+  }
+  .cap,.sleeve{
+    display:inline-block;
+  }
