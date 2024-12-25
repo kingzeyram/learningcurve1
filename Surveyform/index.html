@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <link rel="stylesheet" href="styles.css">
+  </head>
+  <div class="container">
+  <body>
+    <h1 id="title">My Survey Form</h1>
+    <p id="description">Please take time to fill out this form fully</p>
+    <form id="survey-form">
+      <label id="name-label" for="name">
+      <input id="name" type="text" placeholder="Input Name" required value="name" >
+      <label id="email-label" for="email">
+      <input id="email" type="email" placeholder="Input Email" required value="email">
+      <label id="number-label" for="number">
+      <input id="number" type="number" min="10" max="99" placeholder="age "value="age">
+      <p>What best describes your level of experties?</p>
+      <select id="dropdown">
+        <option>beginner</option>
+        <option>amatuer</option>
+        <option>professional</option>
+      </select>
+
+      <p>Where did you hear about us</p>
+      <input name="a"type="radio" checked value="online">online
+      <input name="a"type="radio" value="friend">A friend
+
+      <p>select what skilla suit you(check all applicable)</p>
+      <input type="checkbox" value="1" >javascript
+      <input type="checkbox" value="2" >css
+      <input type="checkbox" value="3" >html
+      <input type="checkbox" value="4" >python
+      <input type="checkbox" value="5" >next.js
+      <input type="checkbox" value="6" >kotlin
+
+     <p>What else can you add about yourself?</p>
+     <textarea id="comments" placeholder="tell us more..."></textarea>
+
+     <input id="submit" type="submit">
+
+    </form>
+  </body>
+  </div>
+</html>
