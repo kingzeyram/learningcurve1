@@ -1,0 +1,48 @@
+/* For Ids we use the ID selector as shown below */
+/* Ids help to style specific/individual elements */
+/* This selector uses a # */
+/* .. since the images folder is outside CSS Folder, we move back with .. */
+body {
+    background-image: url("../images/background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#para1{
+   color: blue;
+   background-color: aqua;
+   height: 100px;
+}
+
+#para2{
+   color: red;
+   background-color: aqua;
+   height: 100px;
+}
+
+#para3{
+   color: yellow;
+   background-color: aqua;
+   height: 100px;
+}
+
+/* Classes help to style a group of elements */
+/* This selector uses a . */
+.para4{
+    color: white;
+    background-color: darkorchid;
+    height: 100px;
+}
+
+/* Style the DIVs */
+#d1{
+    color: blue;
+    background-color: darkorchid;
+    height: 100px;
+}
+
+#d2{
+    color: green;
+    background-color: rgb(204, 50, 71);
+    height: 100px;
+}
