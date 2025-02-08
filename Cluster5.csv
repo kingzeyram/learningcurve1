@@ -1,0 +1,2 @@
+,Loan_ID,Gender,Married,Education,Self_Employed,ApplicantIncome,CoapplicantIncome,LoanAmount,Property_Area,Loan_Status,ClusterNo
+409,LP002317,Male,Yes,Graduate,No,81000,0.0,360.0,Rural,N,5
