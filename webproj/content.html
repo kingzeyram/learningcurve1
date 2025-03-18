@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products | Uzuri Tech</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="content-body">
+    <header>
+        <h1>Our Products</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="content.html">Products</a></li>
+                <li><a href="exit.html">Exit</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="products">
+        <h2>Our Featured Products</h2>
+        <table  border="3" ma>
+            <tr>
+                <th>Product</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Image</th>
+            </tr>
+            <tr>
+                <td>Smartphone</td>
+                <td>Latest model with advanced features</td>
+                <td>$799</td>
+                <td><img src="https://images.unsplash.com/photo-1726066012749-f81bf4422d4e?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Smartphone" width="100">
+                </td>
+            </tr>
+            <tr>
+                <td>Laptop</td>
+                <td>High-performance laptop for professionals</td>
+                <td>$1200</td>
+                <td><img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wfGVufDB8fDB8fHww" alt="Laptop" width="100">
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="online-transaction">
+        <h2>Online Transaction Form</h2>
+        <form action="#" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="product">Select Product:</label>
+            <select id="product" name="product">
+                <option value="smartphone">Smartphone</option>
+                <option value="laptop">Laptop</option>
+            </select>
+            <br>
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+            <br>
+            <input type="submit" value="Submit Order">
+        </form>
+    </section>
+
+    <footer>
+        <marquee>Order now and get exciting discounts!</marquee>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,117 @@
+/* General styling for all pages */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.unsplash.com/photo-1521747116042-e42f93e1f99b?crop=entropy&cs=tinysrgb&fit=max&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGJsbXckZm9vZHxlbnwwfDF8fHww&ixlib=rb-1.2.1&q=80&w=1080');
+    background-size: cover;
+    color: #fff;
+}
+
+/* Styling for entry page */
+.entry-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.entry-container {
+    text-align: center;
+}
+
+.entry-container h1 {
+    font-size: 3rem;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+/* Styling for home, content, and exit pages */
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+
+section {
+    margin: 20px;
+    color: black;
+}
+
+.products table {
+    width: 100%;
+    border-collapse: collapse;
+    color: black;
+}
+
+
+.products table th, .products table td {
+    padding: 10px;
+    border: 1px solid black;
+    color: black;
+}
+
+form input, form select {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.history{
+    color: black;
+}
